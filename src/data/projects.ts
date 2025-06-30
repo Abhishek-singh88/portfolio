@@ -2,12 +2,12 @@
 export const projects = [
 
   {
-      title: "CORO TASHI",
-    description: "A decentralized DeFi platform...",
-    tech: ["Tailwind CSS", "Solidity", "Prisma", "Remix"],
-    github: "#",
-    demo: "#",
-    image: ""
+      title: "PagePeer",
+    description: "PagePeer is a decentralized e-Library platform revolutionizing how we access, own, and experience digital books. Powered by Web3, it empowers users to explore an expansive collection, mint books as NFTs, and build a secure, censorship-resistant personal library.",
+    tech: ["NextJs","Typescript", "MongoDB", "Civic Auth", "Tailwind"],
+    github: "https://github.com/Abhishek-singh88/PagePeer",
+    demo: "https://page-peer.vercel.app/",
+    image: "/Pagepeer.png"
   },
   {
     title: "Decentralized Drive",
@@ -18,20 +18,21 @@ export const projects = [
     image: "/Decentralized.png"
   },
   {
-    title: "EDU LEGACY",
-    description: "Secure your academic legacy...",
-    tech: ["TypeScript", "Solana", "Rust"],
-    github: "#",
-    demo: "#",
-    image: ""
+    title: "Smart Tailor",
+    description: "A cloud-based micro-ERP (Enterprise Resource Planning) platform specifically for small tailoring shops. It should manage order intake, fabric inventory, delivery  timelines, customer measurements, and even style preferences, all in a mobile-friendly interface.",
+    tech: ["TypeScript", "NextJs", "MongoDB", "Tailwind"],
+    github: "https://github.com/Abhishek-singh88/smarttailor",
+    demo: "https://smarttailor-steel.vercel.app/",
+    image: "/smartTailor.png"
   },
   {
-    title: "SKILL LINK",
-    description: "A DApp for verified skills...",
-    tech: ["Next.js", "Solidity", "Ethers.js"],
-    github: "#",
-    demo: "#",
-    image: ""
+    title: "Weather App",
+    description: "Developed a web-based Weather App that provides real-time weather information for any city worldwide. The app utilizes a clean and responsive user interface to display weather details such as temperature, humidity, wind speed, and weather conditions.",
+    tech: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+    github: "https://github.com/Abhishek-singh88/Weather-App",
+    demo: "https://abhishek-singh88.github.io/Weather-App/",
+    image: "/weather.png"
   },
-  // add more if needed
+  
 ];
+
