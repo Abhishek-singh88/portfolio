@@ -3,7 +3,7 @@ export default function About() {
     <section className="mt-20">
       <h3 className="text-2xl font-semibold mb-4">About Me</h3>
       <p className="text-gray-400">
-        I'm a passionate developer with a strong interest in web and blockchain technologies.
+        I&rsquo;m a passionate developer with a strong interest in web and blockchain technologies.
         I enjoy building full-stack applications, experimenting with tools like React, NextJs, Node.js,
         Solidity, and exploring the Solana ecosystem.
 

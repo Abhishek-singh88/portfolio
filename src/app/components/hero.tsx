@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { Button } from "./ui/moving-border";
-import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -13,7 +12,7 @@ export default function Hero() {
           <p className="inline-block bg-green-900 text-green-400 text-sm px-3 py-1 rounded-full mb-4 ">           ● Looking for opportunities
           </p>
           <h1 className="text-4xl font-bold mb-2">
-            Hii, I'm Abhishek Singh <span className="inline-block">  🧑‍💻</span>
+            Hii, I&rsquo;m Abhishek Singh <span className="inline-block">  🧑‍💻</span>
           </h1>
           <h2 className="text-xl text-gray-400 mb-4">
             Full Stack & Blockchain developer | Tech Enthusiast
