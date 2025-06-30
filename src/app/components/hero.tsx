@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Button } from "./ui/moving-border";
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -20,12 +21,18 @@ export default function Hero() {
 
           <div className="flex gap-x-7">
             <Button
+              onClick={() => {
+                document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });
+              }}
               borderRadius="1.75rem"
               className="bg-white dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800 cursor-pointer transition-all duration-300 hover:border-indigo-400"
             >
               View Projects
             </Button>
-             <Button
+            <Button
+              onClick={() => {
+                document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+              }}
               borderRadius="1.75rem"
               className="bg-white dark:bg-slate-900 text-black dark:text-white border border-neutral-200 dark:border-slate-800 cursor-pointer transition-all duration-300 hover:border-indigo-400"
             >
@@ -33,13 +40,13 @@ export default function Hero() {
             </Button>
           </div>
           <a
-  href="https://drive.google.com/file/d/1qZiE68z_ZMU50Fy3NY7yU6lNdQgFvUgS/view?usp=drivesdk" 
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block mt-6 px-6 py-2 rounded-full bg-slate-900 text-white font-semibold shadow-md transition duration-300 hover:bg-indigo-700 hover:scale-105"
->
-  View Resume →
-</a>
+            href="https://drive.google.com/file/d/1qZiE68z_ZMU50Fy3NY7yU6lNdQgFvUgS/view?usp=drivesdk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-6 px-6 py-2 rounded-full bg-slate-900 text-white font-semibold shadow-md transition duration-300 hover:bg-indigo-700 hover:scale-105"
+          >
+            View Resume →
+          </a>
 
 
         </div>
