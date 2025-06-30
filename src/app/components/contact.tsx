@@ -6,28 +6,28 @@ const contactLinks = [
     {
         icon: Mail,
         label: "Email",
-        href: "mailto:your-email@example.com",
+        href: "mailto:abhisheksingh4928@gmail.com",
     },
     {
         icon: Twitter,
         label: "X (Twitter)",
-        href: "https://x.com/your_username",
+        href: "https://x.com/Abhishekdotsol",
     },
     {
         icon: Github,
         label: "GitHub",
-        href: "https://github.com/your_username",
+        href: "https://github.com/abhishek-singh88",
     },
     {
         icon: Linkedin,
         label: "LinkedIn",
-        href: "https://www.linkedin.com/in/your_username",
+        href: "https://www.linkedin.com/in/abhishek-singh-9645a628b",
     },
 ];
 
 export default function Contact() {
     return (
-        <section className="max-w-2xl mx-auto px-4 py-20">
+        <section id="contact" className="max-w-2xl mx-auto px-4 py-20 scroll-mt-20">
             <h2 className="text-3xl font-bold text-center mb-6">Get in Touch</h2>
             <p className="text-center text-gray-400 mb-10">
                 Connect with me on your favorite platform or drop an email.
