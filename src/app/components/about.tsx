@@ -10,7 +10,7 @@ export default function About() {
         <br /><br />
 
         Always eager to learn and take on new challenges, I believe in writing clean, efficient code
-        and turning ideas into real-world solutions. Whether it's a hackathon project or a personal build,
+        and turning ideas into real-world solutions. Whether it&apos;s a hackathon project or a personal build,
         I love bringing tech to life.
       </p>
     </section>
