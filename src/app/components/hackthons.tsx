@@ -13,7 +13,7 @@ export default function HackathonSection() {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-2 text-center">Achievements & Hackathons</h2>
         <p className="text-center text-gray-400 mb-10">
-          I love building things for hackathons and have won some awards along the way.
+          I enjoy the thrill of turning ideas into prototypes during hackathons.
         </p>
 
         <div className="space-y-6">
@@ -47,14 +47,22 @@ export default function HackathonSection() {
                 ))}
               </div>
 
-              <div className="mt-4">
+              <div className="mt-4 flex gap-x-5">
+                <a
+                  href={hack.site}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block bg-gray-900 hover:bg-gray-700 text-white text-sm px-4 py-1 rounded-full"
+                >
+                  🔗 Visit Hackthon site
+                </a>
                 <a
                   href={hack.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-gray-900 hover:bg-gray-700 text-white text-sm px-4 py-1 rounded-full"
                 >
-                  🔗 View Project
+                  🔗 View project
                 </a>
               </div>
             </div>
