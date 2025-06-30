@@ -23,7 +23,7 @@ export default function Projects() {
           >
             {/* Image */}
             <div className="w-full md:w-1/2">
-              <div className="relative w-full h-48 sm:h-64 md:h-full">
+              <div className="relative w-full h-48 sm:h-64 md:h-80">
                 <Image
                   src={project.image}
                   alt={project.title}
