@@ -39,7 +39,7 @@ export default function Hero() {
             </Button>
           </div>
           <a
-            href="https://drive.google.com/file/d/1slkejJ6w_Nmb8wCSyS7dW3y0li33pDRf/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1Jr9WnpEa5g6jFdw0ImU4gg3UsYZ3zZsn/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-6 px-6 py-2 rounded-full bg-slate-900 text-white font-semibold shadow-md transition duration-300 hover:bg-indigo-700 hover:scale-105"
