@@ -10,6 +10,14 @@ export const projects = [
     image: "/solversity.png"
   }, 
    {
+    title: "BaseBuilder",
+    description: "{Facrcaster mini app} BaseBuilder Showcase is a decentralized community-driven platform that serves as the 'Product Hunt for Base'. It helps users discover, review, and showcase the best applications in the Base ecosystem while building a vibrant community around Base builders.",
+    tech: ["Nextjs", "solidity", "web3.js", "Tailwind CSS","Farcaster sdk", "Alchemy"],
+    github: "https://github.com/Abhishek-singh88/BaseBuilder",
+    demo: "https://farcaster.xyz/miniapps/yHA1HDmJheVU/basebuilder",
+    image: "/basebuilder.png"
+  },
+   {
     title: "Decentralized Drive",
     description: "Built a decentralized application (dApp) that enables users to store and share images securely using IPFS (InterPlanetary File System) and Ethereum blockchain. Users can connect their crypto wallets, upload images to the IPFS network, and share files with other Ethereum addresses. This project emphasizes data ownership, privacy, and decentralization, eliminating reliance on centralized servers.",
     tech: ["React", "solidity", "web3.js", "IPFS","pinata", "Alchemy"],
@@ -32,14 +40,6 @@ export const projects = [
     github: "https://github.com/Abhishek-singh88/NostrExtract",
     demo: "https://nostr-extract.vercel.app/",
     image: "/NostrExtract.png"
-  },
-  {
-    title: "Smart Tailor",
-    description: "A cloud-based micro-ERP (Enterprise Resource Planning) platform specifically for small tailoring shops. It should manage order intake, fabric inventory, delivery  timelines, customer measurements, and even style preferences, all in a mobile-friendly interface.",
-    tech: ["TypeScript", "NextJs", "MongoDB", "Tailwind"],
-    github: "https://github.com/Abhishek-singh88/smarttailor",
-    demo: "https://smarttailor-steel.vercel.app/",
-    image: "/smartTailor.png"
   },
   {
     title: "Weather App",
