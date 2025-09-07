@@ -9,6 +9,14 @@ export const projects = [
     demo: "https://solversity.vercel.app/",
     image: "/solversity.png"
   }, 
+    {
+    title: "Github Timeline",
+    description: "A full-stack web application that allows users to subscribe to curated GitHub timeline updates via email. Built with React, Express.js, and Supabase, featuring a professional admin panel for manual email campaigns.",
+    tech: ["Reactjs", "Express", "Supabase", "Tailwind CSS","Nodemailer"],
+    github: "https://github.com/Abhishek-singh88/Timeline",
+    demo: "https://timeline99.vercel.app/",
+    image: "/Timeline.png"
+  },
    {
     title: "BaseBuilder",
     description: "{Facrcaster mini app} BaseBuilder Showcase is a decentralized community-driven platform that serves as the 'Product Hunt for Base'. It helps users discover, review, and showcase the best applications in the Base ecosystem while building a vibrant community around Base builders.",
@@ -24,14 +32,6 @@ export const projects = [
     github: "https://github.com/Abhishek-singh88/Decentralize-drive",
     demo: "https://decentralize-drive77.netlify.app/",
     image: "/Decentralized.png"
-  },
-  {
-      title: "PagePeer",
-    description: "PagePeer is a decentralized e-Library platform revolutionizing how we access, own, and experience digital books. Powered by Web3, it empowers users to explore an expansive collection, mint books as NFTs, and build a secure, censorship-resistant personal library.",
-    tech: ["NextJs","Typescript", "MongoDB", "Civic Auth", "Tailwind"],
-    github: "https://github.com/Abhishek-singh88/PagePeer",
-    demo: "https://page-peer.vercel.app/",
-    image: "/Pagepeer.png"
   },
   {
     title: "NostrExtract",
