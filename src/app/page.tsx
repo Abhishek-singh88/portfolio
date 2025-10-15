@@ -5,6 +5,7 @@ import GitHubContribution from './components/githubCalendar';
 import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
+import Experience from './components/experience';
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
         <br></br>
         <br></br>
         <Skills/>
+        <br></br>
+        <br></br>
+        <Experience/>
         <br></br>
         <GitHubContribution/>
         <br></br>
