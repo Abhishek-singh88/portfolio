@@ -8,7 +8,7 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     company: "Solia Network",
-    role: "Smart Contract Developer",
+    role: "Smart Contract Developer(Team Contributor)",
     logo: "/solia.jpg",
     duration: "Oct 2025 – Present",
   },
