@@ -1,6 +1,14 @@
 
 export const projects = [
 
+  {
+    title: "Service Ledger",
+    description: "Service Ledger is a decentralized marketplace where local businesses can create on-chain vouchers and customers can buy, hold, and redeem them using SLR tokens on Arbitrum Sepolia.It combines an ERC20 payment token with an ERC1155 voucher system, a business dashboard, and a consumer-friendly marketplace UI.",
+    tech: ["Nextjs", "Hardhat", "Solidity", "Ether.js", "Tailwind CSS","Pinata", "Alchemy"],
+    github: "https://github.com/Abhishek-singh88/Service-Ledger",
+    demo: "https://service-ledger.vercel.app/",
+    image: "/service-ledger.png"
+  },
    {
     title: "Solversity",
     description: "Solversity is a comprehensive DeFi education platform built on Solana devnet that combines staking rewards, interactive learning modules, and NFT collections. Users can stake SOL tokens, complete educational quizzes about blockchain and DeFi concepts, and earn exclusive NFTs as rewards.",

@@ -16,6 +16,6 @@ export const experiences: Experience[] = [
     company: "Turbin3",
     role: "Pre Builder",
     logo: "/turbin3.jpg",
-    duration: "Oct 2025 – Present",
+    duration: "Oct 2025 – Dec 2025",
   },
 ];
