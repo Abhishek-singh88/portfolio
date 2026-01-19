@@ -10,7 +10,7 @@ export const experiences: Experience[] = [
     company: "Solia Network",
     role: "Blockchain Development Intern",
     logo: "/solia.jpg",
-    duration: "Oct 2025 – Present",
+    duration: "Oct 2025 – Jan 2026",
   },
   {
     company: "Turbin3",
