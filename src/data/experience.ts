@@ -6,6 +6,12 @@ export interface Experience {
 }
 
 export const experiences: Experience[] = [
+    {
+    company: "Turbin3",
+    role: "Builder",
+    logo: "/turbin3.jpg",
+    duration: "Jan 2026 – Present",
+  },
   {
     company: "Solia Network",
     role: "Blockchain Development Intern",
