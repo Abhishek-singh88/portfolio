@@ -17,14 +17,6 @@ export const projects = [
     demo: "https://solversity.vercel.app/",
     image: "/solversity.png"
   }, 
-    {
-    title: "Github Timeline",
-    description: "A full-stack web application that allows users to subscribe to curated GitHub timeline updates via email. Built with React, Express.js, and Supabase, featuring a professional admin panel for manual email campaigns.",
-    tech: ["Reactjs", "Express", "Supabase", "Tailwind CSS","Nodemailer"],
-    github: "https://github.com/Abhishek-singh88/Timeline",
-    demo: "https://timeline99.vercel.app/",
-    image: "/Timeline.png"
-  },
    {
     title: "BaseBuilder",
     description: "{Facrcaster mini app} BaseBuilder Showcase is a decentralized community-driven platform that serves as the 'Product Hunt for Base'. It helps users discover, review, and showcase the best applications in the Base ecosystem while building a vibrant community around Base builders.",
@@ -40,22 +32,6 @@ export const projects = [
     github: "https://github.com/Abhishek-singh88/Decentralize-drive",
     demo: "https://decentralize-drive77.netlify.app/",
     image: "/Decentralized.png"
-  },
-  {
-    title: "NostrExtract",
-    description: "NostrExtract delivers real-time article summarization using Gemini AI, seamlessly integrated as a Smart Widget. It empowers users in the decentralized Nostr network to quickly grasp key insights from any article—boosting productivity, enhancing content accessibility, and reducing information overload without leaving their ecosystem.",
-    tech: ["Nextjs", "Tailwind CSS", "shadcn", "Gemini API"],
-    github: "https://github.com/Abhishek-singh88/NostrExtract",
-    demo: "https://nostr-extract.vercel.app/",
-    image: "/NostrExtract.png"
-  },
-  {
-    title: "Weather App",
-    description: "Developed a web-based Weather App that provides real-time weather information for any city worldwide. The app utilizes a clean and responsive user interface to display weather details such as temperature, humidity, wind speed, and weather conditions.",
-    tech: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
-    github: "https://github.com/Abhishek-singh88/Weather-App",
-    demo: "https://abhishek-singh88.github.io/Weather-App/",
-    image: "/weather.png"
   },
   
 ];
