@@ -9,8 +9,13 @@ export default function Projects() {
   const visibleProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
-    <section id="projects" className="mt-20 text-center px-4 md:px-10 scroll-mt-20">
-      <h2 className="text-3xl font-bold mb-2">Check out my latest work</h2>
+    <section
+      id="projects"
+      className="mt-20 text-center px-4 md:px-10 scroll-mt-20"
+    >
+      <h2 className="text-3xl font-bold mb-2">
+        Check out my latest work
+      </h2>
       <p className="text-gray-400 mb-10">
         Want to see what I’ve been building? Here are a few of my full-stack projects.
       </p>
@@ -21,22 +26,42 @@ export default function Projects() {
             key={idx}
             className="flex flex-col md:flex-row items-center gap-6 bg-[#111111] rounded-lg p-4 sm:p-6 shadow-md border border-gray-800"
           >
-            {/* Image */}
+            {/* Image OR Placeholder */}
             <div className="w-full md:w-1/2">
-              <div className="relative w-full h-48 sm:h-64 md:h-80">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="rounded-md object-cover object-center"
-                />
+              <div className="relative w-full h-48 sm:h-64 md:h-80 flex items-center justify-center bg-[#0d0d0d] rounded-md border border-gray-800 overflow-hidden">
+                
+                {project.image ? (
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="rounded-md object-cover object-center"
+                  />
+                ) : (
+                  <div className="text-center px-4">
+                    <p className="text-lg font-semibold text-gray-300">
+                      {project.title}
+                    </p>
+                    <p className="text-sm text-gray-500 mt-2">
+                      CLI Tool
+                    </p>
+                  </div>
+                )}
+
               </div>
             </div>
 
-            {/* Text */}
+            {/* Text Content */}
             <div className="w-full md:w-1/2 text-left">
-              <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-              <p className="text-gray-400 mb-3">{project.description}</p>
+              <h3 className="text-xl font-bold mb-2">
+                {project.title}
+              </h3>
+
+              <p className="text-gray-400 mb-3">
+                {project.description}
+              </p>
+
+              {/* Tech Stack */}
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tech.map((tag, i) => (
                   <span
@@ -47,31 +72,35 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+
+              {/* Buttons */}
               <div className="flex gap-5 text-sm">
                 <a
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-4 py-2 bg-blue-900 text-white rounded-full hover:bg-blue-600 transition"
-                  aria-label="GitHub Repository"
                 >
                   GitHub
                 </a>
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-4 py-2 bg-blue-900 text-white rounded-full hover:bg-blue-600 transition"
-                  aria-label="Live Demo"
-                >
-                  Live Demo
-                </a>
+
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-blue-900 text-white rounded-full hover:bg-blue-600 transition"
+                  >
+                    Live Demo
+                  </a>
+                )}
               </div>
             </div>
           </div>
         ))}
       </div>
 
+      {/* View More Button */}
       <button
         onClick={() => setShowAll(!showAll)}
         className="cursor-pointer mt-8 px-6 py-2 bg-white text-black rounded-full hover:opacity-90 transition"
@@ -80,5 +109,4 @@ export default function Projects() {
       </button>
     </section>
   );
-
 }

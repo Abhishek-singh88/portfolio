@@ -1,6 +1,12 @@
 
 export const projects = [
 
+    {
+    title: "Anchor testing suite",
+    description: "Anchor Testing Suite is an automated CLI tool that scans Solana smart contracts built with the Anchor framework, generates 50+ edge-case test scenarios automatically, and executes them against a local validator—delivering test coverage reports and PDA state analysis in minutes instead of hours.",
+    tech: ["Anchor", "rust", "LiteSVM", "clap", "GitHub Actions","TypeScript + ts-mocha", "Serde JSON", "Anyhow"],
+    github: "https://github.com/Abhishek-singh88/anchor-testing-suite",
+  },
   {
     title: "Service Ledger",
     description: "Service Ledger is a decentralized marketplace where local businesses can create on-chain vouchers and customers can buy, hold, and redeem them using SLR tokens on Arbitrum Sepolia.It combines an ERC20 payment token with an ERC1155 voucher system, a business dashboard, and a consumer-friendly marketplace UI.",
