@@ -8,6 +8,14 @@ export const projects = [
     github: "https://github.com/Abhishek-singh88/anchor-testing-suite",
   },
   {
+    title: "MaskMind",
+    description: "MaskMind is a modern anonymous-feedback app inspired by NGL. It lets people share a public link, collect anonymous messages, and moderate their inbox with spam controls and blocked words",
+    tech: ["Nextjs", "Typescript", "", "MongoDB", "Tailwind CSS","NextAuth", "Zod","Resend"],
+    github: "https://github.com/Abhishek-singh88/maskMind",
+    demo: "https://mask-mind.vercel.app/",
+    image: "/maskmind.png"
+  },
+  {
     title: "Service Ledger",
     description: "Service Ledger is a decentralized marketplace where local businesses can create on-chain vouchers and customers can buy, hold, and redeem them using SLR tokens on Arbitrum Sepolia.It combines an ERC20 payment token with an ERC1155 voucher system, a business dashboard, and a consumer-friendly marketplace UI.",
     tech: ["Nextjs", "Hardhat", "Solidity", "Ether.js", "Tailwind CSS","Pinata", "Alchemy"],
