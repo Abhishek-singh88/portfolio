@@ -10,7 +10,7 @@ export const projects = [
   {
     title: "MaskMind",
     description: "MaskMind is a modern anonymous-feedback app inspired by NGL. It lets people share a public link, collect anonymous messages, and moderate their inbox with spam controls and blocked words",
-    tech: ["Nextjs", "Typescript", "", "MongoDB", "Tailwind CSS","NextAuth", "Zod","Resend"],
+    tech: ["Nextjs", "Typescript", "MongoDB", "Tailwind CSS","NextAuth", "Zod","Resend"],
     github: "https://github.com/Abhishek-singh88/maskMind",
     demo: "https://mask-mind.vercel.app/",
     image: "/maskmind.png"
