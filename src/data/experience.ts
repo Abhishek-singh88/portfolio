@@ -10,7 +10,7 @@ export const experiences: Experience[] = [
     company: "Cardium games",
     role: "Backend developer Intern",
     logo: "/cardium.jpg",
-    duration: "May 2026 – Present",
+    duration: "May 2026 – Aug 2026",
   },  
   {
     company: "Turbin3",
