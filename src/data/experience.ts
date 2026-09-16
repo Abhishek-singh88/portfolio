@@ -8,9 +8,9 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     company: "Cardium games",
-    role: "Backend developer Intern",
+    role: "Backend developer",
     logo: "/cardium.jpg",
-    duration: "May 2026 – Aug 2026",
+    duration: "April 2026 – Aug 2026",
   },  
   {
     company: "Turbin3",
