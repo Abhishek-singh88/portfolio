@@ -41,7 +41,7 @@ export const projects = [
   },
    {
     title: "Decentralized Drive",
-    description: "Built a decentralized application (dApp) that enables users to store and share images securely using IPFS (InterPlanetary File System) and Ethereum blockchain. Users can connect their crypto wallets, upload images to the IPFS network, and share files with other Ethereum addresses. This project emphasizes data ownership, privacy, and decentralization, eliminating reliance on centralized servers.",
+    description: "Built decentralized application (dApp) that enables users to store and share images securely using IPFS (InterPlanetary File System) and Ethereum blockchain. Users can connect their crypto wallets, upload images to the IPFS network, and share files with other Ethereum addresses. This project emphasizes data ownership, privacy, and decentralization, eliminating reliance on centralized servers.",
     tech: ["React", "solidity", "web3.js", "IPFS","pinata", "Alchemy"],
     github: "https://github.com/Abhishek-singh88/Decentralize-drive",
     demo: "https://decentralize-drive77.netlify.app/",
