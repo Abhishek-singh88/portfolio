@@ -6,7 +6,6 @@ import Projects from './components/projects';
 import Contact from './components/contact';
 import Footer from './components/footer';
 import Experience from './components/experience';
-import { BrokenWidget } from './non-existent-widget';
 
 
 export default function Home() {
